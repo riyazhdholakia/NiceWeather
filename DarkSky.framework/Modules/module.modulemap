@@ -1,0 +1,11 @@
+framework module DarkSky {
+  umbrella header "DarkSky.h"
+
+  export *
+  module * { export * }
+}
+
+module DarkSky.Swift {
+    header "DarkSky-Swift.h"
+    requires objc
+}
