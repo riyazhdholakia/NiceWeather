@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import DarkSky
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        DarkSky.api_key = "fdbd5a438d0133a39842235b1c042730"
         return true
     }
 
